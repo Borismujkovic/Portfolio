@@ -86,7 +86,7 @@ export const HomePage = () => {
               Front-End Boot camp at the Belgrade Institute of Technology.
             </p>
             <button>
-              <a href="https://github.com/Borismujkovic/TopTVShow-React" target="_blank">
+              <a href="https://top-tvs-how-react.vercel.app/" target="_blank">
                 See project
               </a>
             </button>
