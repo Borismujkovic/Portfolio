@@ -44,7 +44,7 @@ export const HomePage = () => {
               Institute of Technology.
             </p>
             <button>
-              <a href="https://hr-lab-new.vercel.app/" target="_blank">
+              <a href="https://github.com/Borismujkovic/HR-lab" target="_blank">
                 See project
               </a>
             </button>
@@ -86,7 +86,7 @@ export const HomePage = () => {
               Front-End Boot camp at the Belgrade Institute of Technology.
             </p>
             <button>
-              <a href="https://bit-show-react.vercel.app/" target="_blank">
+              <a href="https://github.com/Borismujkovic/TopTVShow-React" target="_blank">
                 See project
               </a>
             </button>
@@ -123,7 +123,7 @@ export const HomePage = () => {
           <div className="description">
             <h2>LBS-intern in React.js</h2>
             <p>
-              An application which is a result of mutual idea from students of the Belgrade Institute of Technology, written in React.js.
+              An application that shows all the employees of one company with the form to add new employees, written in React.js.
             </p>
             <button>
               <a href="https://lbs-intern.vercel.app/" target="_blank">
