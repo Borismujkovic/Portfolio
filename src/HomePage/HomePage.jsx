@@ -59,19 +59,18 @@ export const HomePage = () => {
         <div className="projects">
           <div>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/8/82/Giphy-logo.svg"
+              src="https://static.vecteezy.com/system/resources/previews/000/273/542/original/online-food-order-concept-vector.jpg"
               alt=""
             />
           </div>
           <div className="description">
-            <h2>Giphy App</h2>
+            <h2>FoodOrderApp</h2>
             <p>
-              An application that serves for searching GIFs, written in
-              React.js, as one of the practises during the Front-End Boot camp
-              at the Belgrade Institute of Technology.
+              An application that serves for ordering food, written in
+              React.js, as one of the practices for developing my skills.
             </p>
             <button>
-              <a href="https://giphy-mq1bk23s5-borismujkovic.vercel.app/" target="_blank">
+              <a href="https://food-order-app-pied-five.vercel.app/" target="_blank">
                 See project
               </a>
             </button>
@@ -82,7 +81,7 @@ export const HomePage = () => {
             <h2>BIT Show in React.js</h2>
             <p>
               An application that shows 50 top-rated movies on IMDB and their
-              details, written in React.js as one of the practises during the
+              details, written in React.js as one of the practices during the
               Front-End Boot camp at the Belgrade Institute of Technology.
             </p>
             <button>
@@ -109,7 +108,7 @@ export const HomePage = () => {
             <h2>BIT Show in JavaScript</h2>
             <p>
               An application that shows 50 top-rated movies on IMDB and their
-              details, written in JavaScript, as one of the practises during the
+              details, written in JavaScript, as one of the practices during the
               Front-End Boot camp at the Belgrade Institute of Technology.
             </p>
             <button>
