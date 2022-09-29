@@ -74,6 +74,10 @@ body {
         border-radius: 20px;
         border: none;
         cursor: pointer;
+        font-weight: 700;
+        &:hover{
+          background-color: rgb(13, 64, 145);;
+        }
         a {
           text-decoration: none;
           color: white;
