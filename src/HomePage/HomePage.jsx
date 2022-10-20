@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import "./HomePage.scss";
-// import profile from '../../Assets/profile.jpg'
+import profile from "../Assets/image.jpg";
 
 export const HomePage = () => {
-  // const pic = profile
-
   return (
     <div id="HomePage">
       <header>
@@ -20,10 +18,7 @@ export const HomePage = () => {
           </div>
         </div>
         <div className="profile-img">
-          <img
-            src="https://media-exp1.licdn.com/dms/image/C4D03AQGvXvZS0uDCBQ/profile-displayphoto-shrink_200_200/0/1580835758462?e=1665619200&v=beta&t=P5bOsj9JAUFLsyy4BR8HSRBMA3bjlftAi7JjvJsoi5M"
-            alt=""
-          />
+          <img src={profile} />
         </div>
       </header>
       <main>
@@ -66,11 +61,14 @@ export const HomePage = () => {
           <div className="description">
             <h2>FoodOrderApp</h2>
             <p>
-              An application that serves for ordering food, written in
-              React.js, as one of the practices for developing my skills.
+              An application that serves for ordering food, written in React.js,
+              as one of the practices for developing my skills.
             </p>
             <button>
-              <a href="https://food-order-app-pied-five.vercel.app/" target="_blank">
+              <a
+                href="https://food-order-app-pied-five.vercel.app/"
+                target="_blank"
+              >
                 See project
               </a>
             </button>
@@ -122,7 +120,8 @@ export const HomePage = () => {
           <div className="description">
             <h2>LBS-intern in React.js</h2>
             <p>
-              An application that shows all the employees of one company with the form to add new employees, written in React.js.
+              An application that shows all the employees of one company with
+              the form to add new employees, written in React.js.
             </p>
             <button>
               <a href="https://lbs-intern.vercel.app/" target="_blank">
@@ -161,7 +160,6 @@ export const HomePage = () => {
             https://github.com/Borismujkovic
           </a>
         </div>
-        
       </footer>
     </div>
   );
