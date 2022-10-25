@@ -66,7 +66,7 @@ export const HomePage = () => {
             </p>
             <button>
               <a
-                href="https://food-order-app-pied-five.vercel.app/"
+                href="https://food-order-react-rho.vercel.app/"
                 target="_blank"
               >
                 See project
