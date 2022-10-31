@@ -44,9 +44,22 @@ button {
   margin: 10px 25px;
   padding: 15px 0px;
   /* background-color: rgb(245, 238, 238); */
+  animation: projects-appear 1s ease-out forwards;
 }
 
 .projectLink:hover {
   background-color: #82b4f7;
   border-radius: 20px;
+}
+
+@keyframes projects-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

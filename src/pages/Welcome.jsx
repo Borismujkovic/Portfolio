@@ -57,7 +57,7 @@ export const Welcome = () => {
               <li>Redux</li>
               <li>JavaScript</li>
               <li>ES6</li>
-              <li>TypeScript(In process)</li>
+              <li>TypeScript(In progress)</li>
               <li>Git</li>
               <li>Bootstrap</li>
               <li>SASS</li>
