@@ -5,6 +5,8 @@ import FoodOrder from "../Assets/FoodOrder.png";
 import IMDBJS from "../Assets/IMDBJS.png";
 import IMDBReact from "../Assets/IMDBReact.png";
 import LBS from "../Assets/LBS.png";
+import JSProjects from "../Assets/JSProjects.png";
+
 
 export const Products = () => {
   return (
@@ -44,6 +46,23 @@ export const Products = () => {
             <p>
               An application that serves for ordering food, written in React.js,
               as one of the practices for developing my skills.
+            </p>
+            <button>See project</button>
+          </div>
+        </a>
+        <a
+          className="projectLink"
+          href="https://js-projects-28tq0xewx-borismujkovic.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div>
+            <img className="projectImg" src={JSProjects} alt="FoodOrderApp" />
+          </div>
+          <div className="description">
+            <h2>Small JS Projects in JavaScript</h2>
+            <p>
+            An application that contains three small JS apps, written in JavaScript.
             </p>
             <button>See project</button>
           </div>
