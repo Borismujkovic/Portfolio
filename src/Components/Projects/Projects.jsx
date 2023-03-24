@@ -13,8 +13,8 @@ import FoodOrder from "../../Assets/FoodOrder.png";
 import IMDBReact from "../../Assets/IMDBReact.png";
 import IMDBJS from "../../Assets/IMDBJS.png";
 import JSProjects from "../../Assets/JSProjects.png";
-import LBS from "../../Assets/LBS.png";
 import orderPage from "../../Assets/OrderPage.PNG";
+import crudApp from "../../Assets/CRUDApp.png";
 
 import "./Projects.scss";
 
@@ -23,6 +23,37 @@ export const Projects = () => {
     <Element name="projects">
       <div id="Projects">
         <h1>PROJECTS</h1>
+        <div className="singleProject">
+          <div className="description">
+            <h2>CRUD App</h2>
+            <h3>
+              CRUD App made using React, Redux Toolkit and Typescript. 
+            </h3>
+            <div>
+              <button>
+                <a
+                  href="https://crud-app-eosin-iota.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live
+                </a>
+              </button>
+              <button>
+                <a
+                  href="https://github.com/Borismujkovic/CRUD-App"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+              </button>
+            </div>
+          </div>
+          <div className="project-img">
+            <img className="project-logo" src={crudApp} alt="" />
+          </div>
+        </div>
         <div className="singleProject">
           <div className="project-img">
             <img className="project-logo" src={orderPage} alt="" />
@@ -214,38 +245,6 @@ export const Projects = () => {
           </div>
           <div className="project-img">
             <img className="project-logo" src={JSProjects} alt="" />
-          </div>
-        </div>
-        <div className="singleProject">
-          <div className="project-img">
-            <img className="project-logo" src={LBS} alt="" />
-          </div>
-          <div className="description">
-            <h2>LBS in React</h2>
-            <h3>
-              An application that shows all the employees of one company with
-              the form to add new employees, written in React.js.
-            </h3>
-            <div>
-              <button>
-                <a
-                  href="https://lbs-intern.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live
-                </a>
-              </button>
-              <button>
-                <a
-                  href="https://github.com/Borismujkovic/LBS-intern"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
-              </button>
-            </div>
           </div>
         </div>
       </div>

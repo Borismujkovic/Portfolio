@@ -30,6 +30,7 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: flex-start;
+      width: 50%;
       h2 {
         font-size: 40px;
       }
@@ -53,6 +54,7 @@
       }
     }
     .project-img {
+      width: 50%;
       .project-logo {
         object-fit: cover;
         height: 100%;
